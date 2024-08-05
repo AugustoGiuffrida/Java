@@ -13,8 +13,8 @@
 
 
 ### **¿Qué es un Compilador y por qué se necesita para trabajar con Java?**
-#### Un compilador es una herramienta que traduce el código fuente escrito en un lenguaje de alto nivel (como Java) a un lenguaje de bajo nivel o código máquina que puede ser ejecutado directamente por el sistema operativo de la computadora. Este proceso es crucial porque las computadoras no entienden el código de alto nivel directamente; necesitan instrucciones en un formato que puedan ejecutar.
+Un compilador es una herramienta que traduce el código fuente escrito en un lenguaje de alto nivel (como Java) a un lenguaje de bajo nivel o código máquina que puede ser ejecutado directamente por el sistema operativo de la computadora. Este proceso es crucial porque las computadoras no entienden el código de alto nivel directamente; necesitan instrucciones en un formato que puedan ejecutar.
 
 ### **¿Por qué se Necesita un Compilador en Java?**
-#### En el caso de Java, el compilador `javac` convierte el **código fuente Java** `.java` en **bytecode** `.class`. El bytecode es un formato intermedio que es independiente de la plataforma y puede ser ejecutado en cualquier sistema operativo que tenga una **Máquina Virtual Java** (JVM).
+En el caso de Java, el compilador `javac` convierte el **código fuente Java** `.java` en **bytecode** `.class`. El bytecode es un formato intermedio que es independiente de la plataforma y puede ser ejecutado en cualquier sistema operativo que tenga una **Máquina Virtual Java** (JVM).
 
