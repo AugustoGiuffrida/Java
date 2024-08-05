@@ -18,3 +18,6 @@ Un compilador es una herramienta que traduce el código fuente escrito en un len
 ### **¿Por qué se Necesita un Compilador en Java?**
 En el caso de Java, el compilador `javac` convierte el **código fuente Java** `.java` en **bytecode** `.class`. El bytecode es un formato intermedio que es independiente de la plataforma y puede ser ejecutado en cualquier sistema operativo que tenga una **Máquina Virtual Java** (JVM).
 
+<img src="C:\Users\MegaTecnologia\Documents\Programacion"  width="300" height="200">
+
+
