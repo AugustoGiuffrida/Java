@@ -55,9 +55,6 @@ public class HolaMundo{
 En Java, una variable es un contenedor que almacena datos que pueden cambiar durante la ejecución de un programa. Cada variable tiene un **nombre**, un **tipo de dato**, y un **valor**.
 
 
----
-
-
 ### 🔑 Tipos de Variables en Java
 
 1. **Primitivas**: Almacenan valores simples.
