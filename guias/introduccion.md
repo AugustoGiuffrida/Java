@@ -54,20 +54,23 @@ public class HolaMundo{
 
 En Java, una variable es un contenedor que almacena datos que pueden cambiar durante la ejecución de un programa. Cada variable tiene un **nombre**, un **tipo de dato**, y un **valor**.
 
+
 ---
+
 
 ### 🔑 Tipos de Variables en Java
 
 1. **Primitivas**: Almacenan valores simples.
-  - **Enteros**: `byte`, `short`, `int`, `long`
-  - **Punto Flotante**: `float`, `double`
-  - **Carácter**: `char`
-  - **Booleano**: `boolean` (verdadero o falso)
+      * **Enteros**: `byte`, `short`, `int`, `long`
+      * **Punto Flotante**: `float`, `double`
+      * **Carácter**: `char`
+      * **Booleano**: `boolean` (verdadero o falso)
+
 
 2. **De Referencia**: Almacenan direcciones de memoria donde están los datos.
-  - **Cadenas**: `String`
-  - **Arreglos**: `int[]`, `String[]`, etc.
-  - **Objetos**: Instancias de clases creadas por el usuario o predefinidas.
+      * **Cadenas**: `String`
+      * **Arreglos**: `int[]`, `String[]`, etc.
+      * **Objetos**: Instancias de clases creadas por el usuario o predefinidas.
 
 ### 🛠️ Declaración y Asignación de Variables
 
@@ -80,26 +83,42 @@ numero = 10; // Asignación de valor
 int edad = 25;
 ```
 
----
-
-## 🌟 Ejemplos de Variables en Java
+Java permite la inferencia de tipos usando la palabra clave var, simplificando la
+declaración de variables.
 
 ```java
-// Variables primitivas
-byte nivel = 3;       // Entero pequeño
-float precio = 19.99f; // Número decimal
-char letra = 'A';     // Carácter
-boolean activo = true; // Booleano
-
-// Variables de referencia
-String saludo = "Hola, Java"; // Cadena de texto
-int[] numeros = {1, 2, 3, 4}; // Arreglo de enteros
-
-// Objetos
-Persona persona = new Persona("Juan", 30); // Instancia de una clase
+var mensaje = "Hola, Mundo"; // `mensaje` será de tipo `String`
+var numero = 10; // `numero` será de tipo `int`
 ```
 
 ---
+
+
+## 🌟 Ejemplos de Variables en Java
+
+### Variables primitivas
+```java
+byte nivel = 3;       // Entero pequeño
+long distancia = 123456789L; // Entero, 'L' indica que es un long literal
+float precio = 19.99F; // Decimal, 'F' indica que es un float literal
+char letra = 'A';     // Carácter
+boolean activo = true; // Booleano
+```
+
+### Variables de referencia
+```java
+String saludo = "Hola, Java"; // Cadena de texto
+int[] numeros = {1, 2, 3, 4}; // Arreglo de enteros
+```
+
+### Objetos
+```java
+Persona persona = new Persona("Juan", 30); // Instancia de una clase
+```
+
+
+---
+
 
 ## 📋 Ejemplo Completo: Declaración de Variables y Uso
 
