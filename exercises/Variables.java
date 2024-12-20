@@ -1,5 +1,5 @@
-public class Variables{
-    public static void main(String[] args){
+public class Variables {
+    public static void main(String[] args) {
         int edad = 30;
         float altura = 1.75F;
         char inicial = 'J';
