@@ -8,9 +8,9 @@ Java es un lenguaje de programación de alto nivel de paradigma Orientado a Obje
 
 ### ¿Por qué Java?¿Qué ofrece?
 
-| Característica                              | Descripción                                                       |
-|---------------------------------------------|-------------------------------------------------------------------|
-| **Portabilidad** | Una de las mayores fortalezas de Java es su lema **"Escribe una vez, ejecuta en cualquier lugar"** (Write Once, Run Anywhere). Esto significa que el código Java compilado puede ejecutarse en cualquier plataforma que tenga una Máquina Virtual de Java (JVM). |
+| Característica   | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Portabilidad** | Una de las mayores fortalezas de Java es su lema **"Escribe una vez, ejecuta en cualquier lugar"** (Write Once, Run Anywhere). Esto significa que el código Java compilado puede ejecutarse en cualquier plataforma que tenga una Máquina Virtual de Java (JVM).                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | **Rendimiento**  | Su arquitectura incluye características de seguridad incorporadas que protegen contra una amplia gama de amenazas y vulnerabilidades. Un detalle no menor es que la gestión de memoria es automática gracias al **[Garbage Collector](https://es.wikipedia.org/wiki/Recolector_de_basura)**, ya que se evitan problemas como fugas de memoria (o [memory leaks](https://es.wikipedia.org/wiki/Fuga_de_memoria)). Además posee una **arquitectura multihilo** brindando la posibilidad de desarrollar aplicaciones que se aprovechen de las ventajas de la multiprogramación y el paralelismo de tareas. Obviamente, para poder aprovechar el paralelísmo y la multiprogramación, se debe diseñar un programa capaz de hacerlo. |
 
 ### ¿Qué es un Compilador y por qué se necesita para trabajar con Java?
@@ -39,12 +39,12 @@ El `Java Runtime Environment` (JRE) es un subconjunto del JDK. Es todo lo que ne
 
 ### Resumen
 
-| Componente | Descripción |
-|------------|-------------|
+| Componente     | Descripción                                                                     |
+|----------------|---------------------------------------------------------------------------------|
 | **Compilador** | Convierte el código fuente Java en bytecode que puede ser ejecutado por la JVM. |
-| **JDK** | Incluye el compilador, el JRE, y otras herramientas de desarrollo. |
-| **JRE** | Incluye la JVM y las bibliotecas necesarias para ejecutar aplicaciones Java. |
-| **JVM** | Ejecuta el bytecode Java y permite la independencia de plataforma. |
+| **JDK**        | Incluye el compilador, el JRE, y otras herramientas de desarrollo.              |
+| **JRE**        | Incluye la JVM y las bibliotecas necesarias para ejecutar aplicaciones Java.    |
+| **JVM**        | Ejecuta el bytecode Java y permite la independencia de plataforma.              |
 
 <p align="center">
   <img src="media/JDK2.png" alt="Java Runtime Environment">
@@ -61,12 +61,12 @@ La diferencia entre JDK y OpenJDK está principalmente en su origen, licencia y 
 
 Las diferencias generales entre JDK y OpenJDK son las siguientes:
 
-| Característica           | **JDK (de Oracle)**                         | **OpenJDK**                     |
-|--------------------------|---------------------------------------------|----------------------------------|
-| **Licencia**             | Licencia comercial (gratuita con límites). | GPLv2 + Classpath Exception.    |
-| **Costo**                | Gratuito para uso personal/pruebas; pago para empresas. | Totalmente gratuito.            |
-| **Soporte**              | Soporte oficial de Oracle (para empresas). | Soporte de la comunidad o terceros. |
-| **Extras**               | Herramientas propietarias y optimizaciones. | Solo herramientas estándar.     |
+| Característica | **JDK (de Oracle)**                                     | **OpenJDK**                         |
+|----------------|---------------------------------------------------------|-------------------------------------|
+| **Licencia**   | Licencia comercial (gratuita con límites).              | GPLv2 + Classpath Exception.        |
+| **Costo**      | Gratuito para uso personal/pruebas; pago para empresas. | Totalmente gratuito.                |
+| **Soporte**    | Soporte oficial de Oracle (para empresas).              | Soporte de la comunidad o terceros. |
+| **Extras**     | Herramientas propietarias y optimizaciones.             | Solo herramientas estándar.         |
 
 
 El cuál elegir dependerá de tus necesidades, si trabajas en un proyecto **personal o de código abierto**, **OpenJDK** es más que suficiente. Por otro lado si necesitas **soporte empresarial** o acceso a las herramientas adicionales de Oracle, considera usar el **JDK de Oracle**, pero ten en cuenta los costos de licenciamiento para entornos comerciales.
@@ -122,3 +122,4 @@ Para continuar aprendiendo conceptos de Java, lo mejor es seguir practicando. Si
 
 1. [Introducción](./guias/introduccion.md)
 2. [Gestión de Memoria](./guias/getion_de_memoria.md)
+3. [Clases Envolventes](./guias/clases_envolventes.md)

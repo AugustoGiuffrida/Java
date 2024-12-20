@@ -22,8 +22,8 @@ En Java, para cada tipo de dato primitivo, existe una clase envolvente correspon
 La clase `Integer` proporciona métodos útiles para trabajar con valores enteros.
 
 **Métodos útiles:**
-- `Integer.parseInt(String s)`: Convierte una cadena a un entero.
-- `Integer.toString(int i)`: Convierte un entero a una cadena.
+- `Integer.parseInt(var: String)`: Convierte una cadena a un entero.
+- `Integer.toString(var: int)`: Convierte un entero a una cadena.
 - `Integer.MAX_VALUE`: Valor máximo de un `int`.
 - `Integer.MIN_VALUE`: Valor mínimo de un `int`.
 
@@ -52,10 +52,13 @@ public class DetallesInteger {
 La clase `Double` proporciona métodos útiles para trabajar con valores de punto flotante.
 
 **Métodos útiles:**
-- `Double.parseDouble(String s)`: Convierte una cadena a un `double`.
-- `Double.toString(double d)`: Convierte un `double` a una cadena.
+- `Double.parseDouble(var: String)`: Convierte una cadena a un `double`.
+- `Double.toString(var: double)`: Convierte un `double` a una cadena.
 - `Double.MAX_VALUE`: Valor máximo de un `double`.
 - `Double.MIN_VALUE`: Valor mínimo de un `double`.
+
+> [!NOTE]
+> `var: String` indica que es una variable de tipo String.
 
 **Ejemplo:**
 ```java
@@ -82,10 +85,10 @@ public class DetallesDouble {
 La clase `Character` proporciona métodos útiles para trabajar con caracteres.
 
 **Métodos útiles:**
-- `Character.isDigit(char ch)`: Verifica si el carácter es un dígito.
-- `Character.isLetter(char ch)`: Verifica si el carácter es una letra.
-- `Character.toUpperCase(char ch)`: Convierte un carácter a mayúscula.
-- `Character.toLowerCase(char ch)`: Convierte un carácter a minúscula.
+- `Character.isDigit(var: char)`: Verifica si el carácter es un dígito.
+- `Character.isLetter(var: char)`: Verifica si el carácter es una letra.
+- `Character.toUpperCase(var: char)`: Convierte un carácter a mayúscula.
+- `Character.toLowerCase(var: char)`: Convierte un carácter a minúscula.
 
 **Ejemplo:**
 ```java
@@ -105,3 +108,8 @@ public class DetallesCharacter {
     }
 }
 ```
+
+## Indices
+
+- [Volver al README](./../README.md)
+- [Siguiente guia]()

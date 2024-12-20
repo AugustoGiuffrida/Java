@@ -149,3 +149,7 @@ Inicial: J
 ¿Es estudiante? true
 ```
 
+## Indices
+
+- [Volver al README](./../README.md)
+- [Siguiente guia](./getion_de_memoria.md)

@@ -21,3 +21,8 @@ El **Garbage Collector (GC)** es una parte fundamental de la JVM que administra 
 - **Optimización**: Minimizar la fragmentación y garantizar un uso eficiente de la memoria.
 
 👉 El proceso de recolección de basura es **automático** y se activa según las necesidades de la aplicación.
+
+## Indices
+
+- [Volver al README](./../README.md)
+- [Siguiente guia](./clases_envolventes.md)
