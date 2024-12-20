@@ -100,7 +100,7 @@ public class HolaMundo {
 ```
 
 > [!TIP]
-> Si haz clonado el repositorio puedes utilizar los archivos que están en la carpeta exercices!
+> Si haz clonado el repositorio puedes utilizar los archivos que están en la carpeta exercises!
 
 Luego desde la terminal, utilizamos las herramientas de JDK para compilar y ejecutar:
 
