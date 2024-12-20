@@ -1,4 +1,6 @@
-## Java
+# Aprende Java
+
+## Definición de Java como Lenguaje de Programación
 
 Java es un lenguaje de programación de alto nivel de paradigma Orientado a Objetos ([OOP](https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos)), [multiplataforma](https://es.wikipedia.org/wiki/Multiplataforma) y [fuertemente tipado](https://es.wikipedia.org/wiki/Tipado_fuerte).
 
