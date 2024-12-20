@@ -75,26 +75,48 @@ Bueno pues despues de obtener JDK lo único que necesitas es empezar a escribir 
 
 Algunas de las ventajas de IntelliJ es que proporciona todas las herramientas para desarrollar en Java bien integradas y además, su versión comunitaria es open source! (puedes ver su código fuente [aquí](https://github.com/JetBrains/intellij-community))
 
-## Gestión de Memoria en Java
+Continuando, vamos a escribir y ejecutar nuestro primer programa en Java ignorando algunos detalles que profundizaremos más adelante. Para comenzar vamos a seguir estos pasos:
+1. Creamos un archivo que se llamará `HolaMundo.java`
+2. Escribiremos un pequeño código que escribirá "Hola Mundo!" en la salida.
+3. Compilaremos a **bytecode** el archivo que escribimos.
+4. Ejecutaremos nuestro primer programa en Java!
 
-Cuando ejecutas un programa Java, la **RAM** juega un papel clave en la gestión de variables y memoria. Este proceso incluye dos áreas principales:
+Tu puedes seguir los pasos como te sea cómodo. En esta guía utilizaremos la terminal. A continuación se realizarán los pasos anteriormente listados:
 
-1. **Stack**:
-    - **Almacena**: Variables locales y primitivas dentro de métodos.
-    - Cada método tiene un **marco (frame)** en el stack para sus variables locales.
-    - Se gestiona de forma automática con cada llamada y retorno de métodos.
+```bash
+# Creamos un archivo
+touch HolaMundo.java
+```
+Dentro del archivo escribimos:
 
-2. **Heap**:
-    - **Almacena**: Objetos y datos asociados.
-    - Gestionado automáticamente por el **Garbage Collector (GC)**, que libera la memoria ocupada por objetos no accesibles.
+```java
+public class HolaMundo {
+    public static void main(String[] args){
+        System.out.println("Hola Mundo!");
+    }
+}
+```
 
----
+> [!TIP]
+> Si haz clonado el repositorio puedes utilizar los archivos que están en la carpeta exercices!
 
-### Funcionamiento del Garbage Collector
+Luego desde la terminal, utilizamos las herramientas de JDK para compilar y ejecutar:
 
-El **Garbage Collector (GC)** es una parte fundamental de la JVM que administra la memoria del **heap**. Su propósito incluye:
+```bash
+# Compilamos a bitecode
+javac HolaMundo.java
 
-- **Liberar Memoria**: Recolectar objetos no utilizados para liberar espacio.
-- **Optimización**: Minimizar la fragmentación y garantizar un uso eficiente de la memoria.
+# El comando previo generará un archivo HolaMundo.class
+# este archivo es ejecutable por la JVM, así que vamos 
+# ejecutarlo
+java HolaMundo
+```
 
-👉 El proceso de recolección de basura es **automático** y se activa según las necesidades de la aplicación.
+La salida tras ejecutar el comando `java HolaMundo` debería ser `"Hola Mundo!"`. Si es así felicidades, haz escrito y ejecutado tu primer programa en Java!
+
+## Continuar
+
+Para continuar aprendiendo conceptos de Java, lo mejor es seguir practicando. Si quieres continuar puedes seguir las guias que se listan a continuación en orden, ya que están pensadas para no saltearse pasos al aprender este lenguaje.
+
+1. [Introducción](./guias/introduccion.md)
+2. [Gestión de Memoria](./guias/getion_de_memoria.md)
