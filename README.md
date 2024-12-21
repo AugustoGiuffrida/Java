@@ -6,6 +6,8 @@ Java es un lenguaje de programación de alto nivel de paradigma Orientado a Obje
 
 ## Introducción a Java
 
+Documentación Oficial: [dev.java/learn](https://dev.java/learn)
+
 ### ¿Por qué Java?¿Qué ofrece?
 
 | Característica   | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -123,3 +125,4 @@ Para continuar aprendiendo conceptos de Java, lo mejor es seguir practicando. Si
 1. [Introducción](./guias/introduccion.md)
 2. [Gestión de Memoria](./guias/getion_de_memoria.md)
 3. [Clases Envolventes](./guias/clases_envolventes.md)
+4. [Estructuras de desición](./guias/condicionales.md)
